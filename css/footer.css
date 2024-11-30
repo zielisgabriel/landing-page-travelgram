@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 24px;
+}
+
+footer p{
+    font: var(--text-sm);
+    padding-inline: 8px;
+}
+footer .links{
+    display: flex;
+}
