@@ -7,6 +7,10 @@ nav{
     line-height: 0
 }
 
+.nav-surface-color{
+    background-color: var(--surface-color);
+}
+
 nav a{
     padding: 4px;
 }

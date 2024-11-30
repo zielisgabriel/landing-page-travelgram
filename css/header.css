@@ -1,52 +1,53 @@
-.about{
+header{
     display: flex;
     justify-content: space-between;
     padding-block: 32px;
     height: 240px;
+    align-items: center;
 }
 
-.user-about-area{
+#profile{
     display: flex;
     gap: 32px;
 }
 
-.user-about-area img{
+#profile img{
     width: 176px;
     height: 176px;
     object-fit: cover;
     border-radius: 50%;
 }
 
-.about .user-about-textArea{
-    width: 384px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+#profile > div{
+    max-width: 384px;
 }
 
-.user-about-textArea h1{
+#profile > div h1{
     font: var(--text-heading);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
 }
 
-.user-about-textArea p{
+#profile > div p{
     font: var(--text-md);
 }
 
-.about .user-information{
+#info{
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: left;
     width: 280px;
+    list-style: none;
 }
 
-.about .user-information p{
-    display: flex;
-    gap: 8px;
-    align-items: center;
-}
-
-.about .user-information img{
+#info img{
     width: 24px;
     height: 24px;
+}
+
+#info li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }

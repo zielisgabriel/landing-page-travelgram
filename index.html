@@ -15,12 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <nav>
+    <div class="nav-surface-color">
+        <nav class="container">
             <a href="#">
                 <img src="assets/icons/Logo.svg" alt="Logomarca">
             </a>
-
             <ul id="primary-menu">
                 <li>
                     <img src="assets/icons/MagnifyingGlass.svg" alt="Ícone de lupa">
@@ -40,25 +39,32 @@
             </ul>
         </nav>
 
-        <section class="about">
-            <div class="user-about-area">
+        <header class="container">
+            <div id="profile">
                 <img src="assets/profile-pic.png" alt="Foto do usuário">
-                <div class="user-about-textArea">
+                <div>
                     <h1>Nome do usuário</h1>
                     <p>
                         Amante de viagens, cultura e gastronomia. 🌍✈️<br>Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸
                     </p>
                 </div>
             </div>
-            <div class="user-information">
+            <ul id="info">
                 
-                <p><img src="assets/icons/MapPin.svg" alt="Ícone informando a localização."> São Paulo, Brazil</p>
-                
-                <p><img src="assets/icons/AirplaneTilt.svg" alt="Ícone de avião."> 37 países</p>
-                
-                <p><img src="assets/icons/Image.svg" alt="Ícone de foto."> 240 fotos</p>
-            </div>
-        </section>
+                <li>
+                    <img src="assets/icons/MapPin.svg" alt="Ícone informando a localização.">
+                    <span>São Paulo, Brazil</span>
+                </li>
+                <li>
+                    <img src="assets/icons/AirplaneTilt.svg" alt="Ícone de avião.">
+                    <span>37 países</span>
+                </li>
+                <li>
+                    <img src="assets/icons/Image.svg" alt="Ícone de foto.">
+                    <span>240 fotos</span>
+                </li>
+            </ul>
+        </header>
     </div>
 </body>
 </html>
