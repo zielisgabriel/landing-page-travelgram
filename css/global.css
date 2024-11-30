@@ -28,3 +28,18 @@ body{
     background-color: var(--background-color);
     font: var(--text-default);
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: .15s;
+}
+
+a:hover{
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container{
+    padding-inline: 32px;
+}
