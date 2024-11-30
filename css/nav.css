@@ -32,3 +32,30 @@ nav ul li:last-child img{
 nav ul li img:first-child{
     cursor: pointer;
 }
+
+.search-input-container{
+    width: 250px;
+    overflow: hidden;
+    /* display: flex;
+    align-items: right; */
+    text-align: right;
+    
+    box-shadow: 0 5px 15px rgba(0,0,0,0.025);
+}
+
+.search-input-content input{
+    font: var(--text-secondary);
+    color: var(--text-color-primary);
+    padding: 5px 15px;
+    width: 80%;
+    outline: none;
+    border: none;
+    background-color: #ffffffa2;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.search-input-content input:focus{
+    background-color: #fff;
+    width: 100%;
+}

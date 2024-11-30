@@ -9,4 +9,10 @@
 #photo-gallery img{
     width: 100%;
     height: auto;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#photo-gallery img:hover{
+    transform: translateY(-2.5px);
 }
