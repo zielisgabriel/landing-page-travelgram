@@ -1,0 +1,51 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 32px;
+    height: 240px;
+}
+
+.user-about-area{
+    display: flex;
+    gap: 32px;
+}
+
+.user-about-area img{
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+}
+
+.about .user-about-textArea{
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.user-about-textArea h1{
+    font: var(--text-heading);
+}
+
+.user-about-textArea p{
+    font: var(--text-md);
+}
+
+.about .user-information{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: left;
+    width: 280px;
+}
+
+.about .user-information p{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.about .user-information img{
+    width: 24px;
+    height: 24px;
+}
