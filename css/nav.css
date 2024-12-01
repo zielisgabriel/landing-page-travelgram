@@ -55,7 +55,15 @@ nav ul li img:first-child{
     transition: .3s;
 }
 
+.search-input-content input:hover{
+    width: 81%;
+}
+
 .search-input-content input:focus{
     background-color: #fff;
     width: 100%;
+}
+
+.search-input-content input::placeholder{
+    font-size: 14px;
 }
