@@ -11,6 +11,9 @@
     <li><strong>Galeria de Fotos:</strong> Mostra fotos que o usuário postou.</li>
 </ul>
 
+## Link da Landing Page
+- [Landing Page (Clique aqui)](https://landing-page-travelgram.vercel.app)
+
 ## Me Acompanhe nas Redes
 - **Instagram:** [@zielis085](https://www.instagram.com/zielis085/)
 - **Linkedin:** [José Gabriel Almeida Silveira](https://www.linkedin.com/in/josgabrielalmeida/)
